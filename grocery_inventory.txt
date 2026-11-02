@@ -1,0 +1,33 @@
+Item, Category, Quantity, Price
+Bananas, Produce, 120, 0.25
+Apples (Gala), Produce, 85, 0.79
+Baby Spinach, Produce, 30, 3.49
+Carrots, Produce, 60, 1.29
+Red Onions, Produce, 45, 0.99
+Whole Milk (1 gal), Dairy, 40, 3.89
+Cheddar Cheese, Dairy, 25, 4.99
+Greek Yogurt, Dairy, 50, 1.19
+Butter (unsalted), Dairy, 32, 4.49
+Large Eggs (dozen), Dairy, 48, 2.99
+Sourdough Bread, Bakery, 18, 4.29
+Bagels (6 pack), Bakery, 22, 3.99
+Chocolate Chip Cookies, Bakery, 15, 5.49
+Chicken Breast, Meat, 35, 6.99
+Ground Beef 80/20, Meat, 28, 5.49
+Pork Chops, Meat, 20, 7.29
+Salmon Fillet, Seafood, 12, 11.99
+Shrimp (frozen), Seafood, 16, 9.49
+Spaghetti, Pantry, 70, 1.49
+Marinara Sauce, Pantry, 44, 2.79
+Peanut Butter, Pantry, 38, 3.29
+Rice (5 lb), Pantry, 26, 4.99
+Black Beans (can), Pantry, 90, 0.99
+Chicken Noodle Soup (can), Pantry, 55, 1.89
+Frozen Pizza, Frozen, 30, 5.99
+Vanilla Ice Cream, Frozen, 24, 4.79
+Frozen Peas, Frozen, 40, 1.99
+Orange Juice, Beverages, 36, 3.59
+Coffee (ground), Beverages, 20, 8.99
+Sparkling Water (12 pack), Beverages, 18, 5.49
+Paper Towels, Household, 25, 7.99
+Dish Soap, Household, 30, 2.99

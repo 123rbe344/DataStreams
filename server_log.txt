@@ -1,0 +1,34 @@
+2026-10-30 08:00:01 INFO  Server starting on port 8080
+2026-10-30 08:00:02 INFO  Loading configuration from /etc/app/config.yml
+2026-10-30 08:00:02 INFO  Database connection pool initialized (size=10)
+2026-10-30 08:00:03 WARN  Cache directory not found, creating /var/cache/app
+2026-10-30 08:00:04 INFO  Server started in 3.2 seconds
+2026-10-30 08:05:17 INFO  GET /index.html 200 12ms
+2026-10-30 08:05:18 INFO  GET /css/style.css 200 4ms
+2026-10-30 08:05:18 INFO  GET /js/app.js 200 6ms
+2026-10-30 08:07:42 INFO  POST /login 200 88ms user=jsmith
+2026-10-30 08:09:10 ERROR POST /login 401 41ms user=admin reason=bad password
+2026-10-30 08:09:15 ERROR POST /login 401 39ms user=admin reason=bad password
+2026-10-30 08:09:21 WARN  Account admin locked after 3 failed attempts
+2026-10-30 08:12:03 INFO  GET /api/orders 200 120ms user=jsmith
+2026-10-30 08:12:44 INFO  GET /api/orders/1042 200 35ms user=jsmith
+2026-10-30 08:15:30 ERROR GET /api/reports 500 2104ms NullPointerException in ReportService
+2026-10-30 08:15:31 ERROR Stack trace written to /var/log/app/trace-0815.log
+2026-10-30 08:20:00 INFO  Scheduled job: nightly-backup skipped (not night)
+2026-10-30 08:22:19 INFO  GET /about.html 200 9ms
+2026-10-30 08:25:51 WARN  Slow query detected: SELECT * FROM orders (1850ms)
+2026-10-30 08:30:00 INFO  Health check OK
+2026-10-30 08:31:12 INFO  POST /api/orders 201 64ms user=mlee
+2026-10-30 08:33:08 INFO  GET /api/orders 200 97ms user=mlee
+2026-10-30 08:35:44 ERROR Database connection timeout after 30000ms
+2026-10-30 08:35:45 WARN  Retrying database connection (attempt 1 of 3)
+2026-10-30 08:35:47 INFO  Database connection restored
+2026-10-30 08:40:02 INFO  GET /contact.html 200 8ms
+2026-10-30 08:42:36 INFO  POST /logout 200 5ms user=jsmith
+2026-10-30 08:45:00 INFO  Health check OK
+2026-10-30 08:47:13 WARN  Disk usage at 85% on /var
+2026-10-30 08:50:29 INFO  GET /api/products 200 54ms user=guest
+2026-10-30 08:52:58 ERROR GET /api/products/999 404 7ms user=guest
+2026-10-30 08:55:10 INFO  POST /logout 200 4ms user=mlee
+2026-10-30 09:00:00 INFO  Health check OK
+2026-10-30 09:00:01 INFO  Server shutting down for maintenance
